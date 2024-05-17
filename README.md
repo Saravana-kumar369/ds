@@ -52,7 +52,7 @@ corr=df.corr()
 sns.heatmap(corr,annot=True)
 sns.pairplot(df)
 ```
-# EX3
+# EX3 To read the given data and perform Feature Encoding and Transformation process and save the data to a file.
 ```
 import pandas as pd
 df=pd.read_csv("/content/Encoding Data.csv")
@@ -141,7 +141,7 @@ sm.qqplot(df["Moderate Negative Skew"],line='45')
 plt.show()
 ```
 
-# EX4
+# EX4 To read the given data and perform Feature Scaling and Feature Selection process and save the data to a file.
 ```
 import pandas as pd
 import numpy as np
